@@ -1,0 +1,55 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and virtual environments
+node_modules/
+vendor/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build artifacts and coverage reports
+dist/
+build/
+out/
+coverage/
+htmlcov/
+.coverage
+bin/
+obj/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Local databases and uploaded files
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Caches and temporary files
+.cache/
+.temp/
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
